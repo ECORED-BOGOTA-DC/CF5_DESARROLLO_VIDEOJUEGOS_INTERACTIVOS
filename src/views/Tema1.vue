@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero.text-white
         span 1
@@ -36,7 +36,6 @@
               img(src='@/assets/curso/tema1/fig1.svg')
           
         p.text-dark #[b.text-dark Unity Profiler] recopila y muestra datos sobre el rendimiento de su aplicación en áreas como la CPU, la memoria, el renderizador y el audio. Es una herramienta útil para identificar áreas de mejora del rendimiento en su aplicación e iterar en esas áreas. Puede identificar cosas como su código, recursos activos, configuraciones de escena, renderizado de cámara y configuraciones de compilación que pueden y afectan el rendimiento de su aplicación. Muestra los resultados en una serie de gráficos para visualizar dónde ocurren los picos en el rendimiento de su aplicación.
-
       .col-md.tarjeta.color-acento-contenido.p-5(data-aos="fade-down-left")
         .row.justify-content-center.mb-4
           .col-6
@@ -70,10 +69,10 @@
         p Puede inspeccionar el código de la secuencia de comandos y cómo su aplicación usa ciertos activos y recursos que podrían estar ralentizándola. También puede comparar el rendimiento de su aplicación en diferentes dispositivos. Esta herramienta tiene varios Módulos de Perfilado diferentes que puede agregar a su sesión de creación de perfiles para obtener más información sobre áreas como renderizado, memoria y audio.
     p.mb-5(data-aos="fade-down-right") Para saber más acerca de la ventana de Unity Profiler, se invita a ver el siguiente video.
     .row.justify-content-center
-      .col-lg-10
-        figure.mb-5(data-aos="fade-down")
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/3VRthxjThHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     ol.lista-ol--cuadro.mb-5
       li(data-aos="fade-down-right") 
         .lista-ol--cuadro__vineta
@@ -277,9 +276,11 @@
         .col-lg-11.mb-4.mb-md-0
           p Utilice el acceso directo F9 para habilitar o deshabilitar Profiler. Puede utilizar este acceso directo para capturar datos de rendimiento sin necesidad de abrir la ventana. Si tiene abierto el generador de perfiles independiente y al usar este acceso directo se inicia la grabación en esta ventana.
     p.mb-4(data-aos="fade-down-right") Se puede conocer más acerca de la configuración del Profiler en el siguiente video.
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Q8DsS-ADEbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.2 Optimización de archivos de salida
@@ -295,7 +296,6 @@
       h4 Los archivos de salida
       p.m-0 Son esencialmente los archivos finales que, en definitiva, formarán parte del videojuego, y que, en el entorno de desarrollo de Unity, están almacenados al interior de la carpeta de proyecto, organizados en subcarpetas según su categoría o función.
     p.mb-4(data-aos="fade-down-right") Para este apartado, trataremos los archivos de salida, de los elementos característicamente más influyentes en el rendimiento.
-    //-titulo
     .row.align-items-center(data-aos="fade-down-right")
       .col-sm-1.col-2.p-0.p-lg-3.p-xl-4.pad1
         img.p-2(src='@/assets/curso/tema1/mando.svg')
@@ -317,7 +317,6 @@
               img(src='@/assets/curso/tema1/fig6.svg')
         h2.text-center.text-dark El sistema de CPU  
         p.text-center.text-dark Está limitado por el número de <i>batches</i> o lotes de información gráfica que necesita ser renderizada. En términos generales, se remite al cálculo por el procesador de la máquina y el almacenamiento de información en memoria RAM.
-    //-titulo
     .row.align-items-center(data-aos="fade-down-right")
       .col-sm-1.col-2.p-0.p-lg-3.p-xl-4.pad1
         img.p-2(src='@/assets/curso/tema1/mando.svg')
@@ -346,7 +345,6 @@
         .col-lg-6
           figure
             img(src='@/assets/curso/tema1/img11.png')
-    //-titulo
     .row.align-items-center(data-aos="fade-down-right")
       .col-sm-1.col-2.p-0.p-lg-3.p-xl-4.pad1
         img.p-2(src='@/assets/curso/tema1/mando.svg')
@@ -415,9 +413,11 @@
           figure
             img(src='@/assets/curso/tema1/img14.png')
     p.mb-4 Mediante el siguiente video, se verán algunos elementos clave para el proceso de optimización de assets.
-    figure(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/zU6UrJpGn1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.3 Optimización de archivos de código
@@ -661,7 +661,7 @@
             p Se puede usar un enfoque similar con el código. Por ejemplo, al tener un enemigo con un #[i script] de IA que determina su comportamiento. Parte de este comportamiento puede involucrar operaciones costosas para determinar qué puede ver y escuchar, y cómo debería reaccionar a esta entrada. Se podría usar un sistema de nivel de detalle para habilitar y deshabilitar estas costosas operaciones en función de la distancia del enemigo al jugador.
     .cajon.color-primario.fondo-cajon.p-4.mb-4(data-aos="fade-down-right")
       p En una escena con muchos de estos enemigos, se haría un ahorro de rendimiento considerable si solo los enemigos más cercanos realizan las operaciones más costosas.
-    p(data-aos="fade") La API CullingGroup de Unity permite conectarse al sistema LOD de Unity para optimizar el código. La página del manual de la API de CullingGroup contiene varios ejemplos de cómo se puede utilizar en el juego. Como siempre, se debe probar, perfilar y encontrar la solución adecuada para el juego.
+    p.mb-0(data-aos="fade") La API CullingGroup de Unity permite conectarse al sistema LOD de Unity para optimizar el código. La página del manual de la API de CullingGroup contiene varios ejemplos de cómo se puede utilizar en el juego. Como siempre, se debe probar, perfilar y encontrar la solución adecuada para el juego.
 </template>
 
 <script>

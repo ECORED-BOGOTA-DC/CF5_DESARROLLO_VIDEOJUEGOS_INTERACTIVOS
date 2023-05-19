@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero.text-white
         span 2
@@ -16,12 +16,12 @@
           )
           .bloque-texto-g__texto.cambiotexto.px-4.py-5
             p.mb-0 Es importante que en esta fase de desarrollo, se tengan detalles de los requerimientos del proyecto, es decir, una base documental que, en esencia, es el documento de diseño del videojuego o Game Design Document.
-    .row.justify-content-center.mb-4
-      .col-lg-6.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
+    .row.align-items-center
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-down-right")
         p Los detalles de requerimientos podrán ofrecer una orientación sobre las características esenciales que deberá tener la #[b carpeta de proyecto de Unity 3D] y, por consiguiente, de la manera como se deberá configurar y optimizar cada asset a integrar o integrado en la plataforma.
-        p Por otro lado, brindará información pertinente a cada miembro del equipo de trabajo, sobre los detalles y paso a paso de los procesos de configuración. En términos generales, esta documentación se podrá definir y pensar como una bitácora de viaje donde se registran los detalles de cada evento y servirá, posteriormente, como referente para el análisis de errores y fallas, y por consiguiente de cambios y ajustes.
-      .col-lg-6.col-md-12(data-aos="fade-down-left")
-        img.mb-4(src='@/assets/curso/tema2/img3.jpg')
+        p.mb-0 Por otro lado, brindará información pertinente a cada miembro del equipo de trabajo, sobre los detalles y paso a paso de los procesos de configuración. En términos generales, esta documentación se podrá definir y pensar como una bitácora de viaje donde se registran los detalles de cada evento y servirá, posteriormente, como referente para el análisis de errores y fallas, y por consiguiente de cambios y ajustes.
+      .col-lg-6(data-aos="fade-down-left")
+        img(src='@/assets/curso/tema2/img3.jpg')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 2.1 Proceso de creación y configuración del proyecto
@@ -30,9 +30,11 @@
     p.mb-5(data-aos="fade-down-right") Para mayor ilustración sobre la 
       span.text-bold creación de la carpeta de proyecto
       span , se invita a ver el siguiente video.
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/CkhdcXwg4dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     h3.mb-4(data-aos="fade-down-right") Configuración predeterminada/personalizada de un proyecto en Unity
     p.mb-4(data-aos="fade-down-right") Configuración predeterminada/personalizada de un proyecto en Unity: cuando se crea un proyecto nuevo en Unity, se abre una ventana que funciona como asistente de creación de proyecto, solicitando una primera información de base, como el nombre del proyecto, su ubicación en el sistema de carpetas y su plantilla de base, que define si será 2D o 3D. 
     .row.justify-content-center.mb-4
@@ -49,10 +51,12 @@
         h3.mb-0.correr-izq Crear proyecto 2D vs. 3D
     p(data-aos="fade-down-right") Una vez se eligen las opciones, principalmente la plantilla 2D o 3D, se comienza la definición de cada parámetro. Es importante tener claridad de las dimensiones del videojuego, es decir 2D o 3D, porque una vez se crea con este parámetro, se cargarán configuraciones predeterminadas para una u otra dimensión de juego.
     p.mb-4(data-aos="fade-down-right") Ahora, se invita a ver el video para la 
-      span.text-bold configuración compilación.
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+      span.text-bold configuración de compilación.
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9VTlO2N5l9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     p.mb-4(data-aos="fade-down-right") Sin embargo, puede darse la circunstancia que deba cambiarse esta configuración y realizar este cambio sin mayores dificultades, teniendo en cuenta que cambiarán aspectos internos de la carpeta de proyecto. Puede cambiarse de 2D a 3D o viceversa. Para realizar este cambio se recurre a la siguiente opción de ruta en menú <i>Edit</i>  (menú: <i>Edit > Project Settings > Editor</i>), tal cual como se muestra en la siguiente figura.
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
@@ -149,12 +153,12 @@
             i.lista-ul__vineta
             span La opción de Auto-Building está activa.
     p(data-aos="fade-down-right") Es importante tener claridad que si bien el proyecto puede ser de modo 2D en la plantilla, puede contener elementos de características 3D como modelos tridimensionales poligonales. O puede configurarse en modo 3D en la plantilla y contener elementos bidimensionales como Sprites.
-    p.mb-4(data-aos="fade-down-right") Ahora, se verá cómo funciona la 
-      span.text-bold integración y caracterización de <i>assets </i> 
-      span mediante el siguiente video.
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-4(data-aos="fade-down-right") Ahora, se verá cómo funciona la #[b integración y caracterización de #[i assets]] mediante el siguiente video.
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/_RPCCQ8gUqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
@@ -166,10 +170,12 @@
       h2 2.2 Detalles de configuración de la plataforma de publicación y compilación
     p.mb-4(data-aos="fade-down-right") A continuación, se verá cómo se puede hacer el 
       span.gtext-bold cambio de plataforma 
-      span a través del siguiente video. 
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      span a través del siguiente video.
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure(data-aos="fade-down")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/wtm8IRq8E6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-4(data-aos="fade-down-right") Una vez se determina la plataforma definitiva e incluso las posibilidades de conversión, se hace necesario documentar los detalles de configuración, asegurándose de concluir cada aspecto inherente a la compilación y plataforma de publicación.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
       p.mb-0 #[b #[i Tabla 3]]
