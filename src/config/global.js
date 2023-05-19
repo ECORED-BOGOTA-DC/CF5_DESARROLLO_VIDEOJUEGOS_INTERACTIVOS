@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Documentación de integración de <em>assetts</em>',
+    componenteFormativo: 'Documentación de integración de <em>assets</em>',
     descripcionCurso:
-      'Se explican conceptos básicos de optimización de <em>assetts</em> y documentación de integración.',
+      'Se explican conceptos básicos de optimización de <em>assets</em> y documentación de integración.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -21,7 +21,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -106,11 +106,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      //{
+      //  nombreRuta: 'complementario',
+      //  icono: 'far fa-folder-open',
+      //  titulo: 'Material complementario',
+      //},
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -129,64 +129,54 @@ export default {
     ],
   },
   complementario: [
-    /*  
     {
-      tema: 'Manual interfaz de usuario',
-      referencia:
-        '<em>Bowers, M. (2019). Level Up – A guide to game UI (with infographic). [Web log post]. Designers.</em>',
-      tipo: 'Blog',
-      link: 'https://www.toptal.com/designers/gui/game-ui',
+      tema: '',
+      referencia: '',
+      tipo: '',
+      link: 'https://www.google.com/',
     },
     {
-      tema: 'Sonidos',
-      referencia: '<em>Freesound. (2021). Sound</em>.',
-      tipo: 'Página web',
-      link: 'https://freesound.org',
+      tema: '',
+      referencia: '',
+      tipo: '',
+      descarga: '/downloads/prueba.pdf',
     },
-    {
-      tema: '<em>Unity</em>',
-      referencia:
-        '<em>Unity documentation. (2021). Unity Manual. Types of light. Unity.</em>',
-      tipo: 'Página web',
-      link: 'https://docs.unity3d.com/Manual/Lighting.html',
-    },
-  */
   ],
   glosario: [
     {
-      termino: 'Audio <i>clip</i>',
+      termino: '<i>Audio clip</i>',
       significado:
-        'contenedor para datos de audio en <i>Unity. Unity</i> admite activos de audio mono, estéreo y multicanal (hasta ocho canales). <i>Unity</i> puede importar formatos de archivo de audio .aif, .wav, .mp3 y .ogg, y formatos de módulo de seguimiento .xm, .mod, .it y .s3m.',
+        'contenedor para datos de audio en Unity. Unity admite activos de audio mono, estéreo y multicanal (hasta ocho canales). Unity puede importar formatos de archivo de audio .aif, .wav, .mp3 y .ogg, y formatos de módulo de seguimiento .xm, .mod, .it y .s3m.',
     },
     {
       termino: '<i>Asset</i>',
       significado:
-        'cualquier medio o dato que pueda usarse en su juego o proyecto. Un activo puede provenir de un archivo creado fuera de <i>Unity</i>, como un modelo 3D, un archivo de audio o una imagen. También puede crear algunos tipos de activos en <i>Unity</i>, como un <i>Animator Controller</i>, un <i>Audio Mixer</i> o una <i>Render Texture</i>.',
+        'cualquier medio o dato que pueda usarse en su juego o proyecto. Un activo puede provenir de un archivo creado fuera de Unity, como un modelo 3D, un archivo de audio o una imagen. También puede crear algunos tipos de activos en Unity, como un Animator Controller, un Audio Mixer o una Render Texture.',
     },
     {
       termino: '<em>Asset package</em>',
       significado:
-        'colección de archivos y datos de proyectos de <i>Unity</i>, o elementos de proyectos, que se comprimen y almacenan en un archivo, similar a los archivos <i>Zip</i>, con la extensión .<i>unitypackage</i>. Los paquetes de activos son una forma práctica de compartir y reutilizar proyectos y colecciones de activos de <i>Unity</i>. ',
+        'colección de archivos y datos de proyectos de Unity, o elementos de proyectos, que se comprimen y almacenan en un archivo, similar a los archivos Zip, con la extensión .unitypackage. Los paquetes de activos son una forma práctica de compartir y reutilizar proyectos y colecciones de activos de Unity. ',
     },
     {
       termino: '<i>Asset server</i>',
       significado:
-        'sistema de control de activos y versiones con una interfaz gráfica de usuario integrada en <i>Unity</i>. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
+        'sistema de control de activos y versiones con una interfaz gráfica de usuario integrada en Unity. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
     },
     {
       termino: '<em>Asset store</em>',
       significado:
-        'biblioteca en crecimiento de activos comerciales y gratuitos creada por <i>Unity</i> y miembros de la comunidad. Ofrece una amplia variedad de activos, desde texturas, modelos y animaciones hasta ejemplos de proyectos completos, tutoriales y extensiones de editor. ',
+        'biblioteca en crecimiento de activos comerciales y gratuitos creada por Unity y miembros de la comunidad. Ofrece una amplia variedad de activos, desde texturas, modelos y animaciones hasta ejemplos de proyectos completos, tutoriales y extensiones de editor.',
     },
     {
       termino: '<i>Asset store package</i>',
       significado:
-        'colección agrupada de activos disponibles para comprar o descargar en <i>Unity Asset Store</i>, comprimidos y almacenados en un archivo con la extensión: .<i>unitypackage</i>, como un paquete de activos. Puede administrar los paquetes de la tienda de activos en la tienda en línea o a través de la ventana Administrador de paquetes. ',
+        'colección agrupada de activos disponibles para comprar o descargar en Unity Asset Store, comprimidos y almacenados en un archivo con la extensión: .unitypackage, como un paquete de activos. Puede administrar los paquetes de la tienda de activos en la tienda en línea o a través de la ventana Administrador de paquetes.',
     },
     {
       termino: '<i>Category</i>',
       significado:
-        'una categoría Profiler identifica los datos de la carga de trabajo para un subsistema de <i>Unity</i> (por ejemplo, las categorías <i>Rendering, Scripting y Animation</i>). <i>Unity</i> aplica códigos de colores a las categorías para ayudar a distinguir visualmente los tipos de datos en la ventana <i>Profiler</i>.',
+        'una categoría Profiler identifica los datos de la carga de trabajo para un subsistema de Unity (por ejemplo, las categorías Rendering, Scripting y Animation). Unity aplica códigos de colores a las categorías para ayudar a distinguir visualmente los tipos de datos en la ventana Profiler.',
     },
     {
       termino: '<i>Compression</i>',
@@ -199,14 +189,14 @@ export default {
         'región del espacio 3D que una cámara en perspectiva puede ver y renderizar. En la vista de Escena, el tronco está representado por una pirámide rectangular truncada con su parte superior en el plano de recorte cercano de la cámara. Un plano que limita qué tan cerca puede ver una cámara desde su posición actual. El plano es perpendicular a la dirección de avance (Z) de la cámara.',
     },
     {
-      termino: '<em>GameObject</em>',
+      termino: 'GameObject',
       significado:
-        'objeto fundamental en las escenas de <i>Unity</i>, que puede representar personajes, accesorios, escenarios, cámaras, <i>waypoints</i> y más. La funcionalidad de un <i>GameObject</i> está definida por los Componentes adjuntos a él.',
+        'objeto fundamental en las escenas de Unity, que puede representar personajes, accesorios, escenarios, cámaras, <i>waypoints</i> y más. La funcionalidad de un GameObject está definida por los Componentes adjuntos a él.',
     },
     {
-      termino: '<em>Level of Detail</em>',
+      termino: 'Level of Detail',
       significado:
-        'técnica de nivel de detalle (LOD) es una optimización que reduce la cantidad de triángulos que <i>Unity</i> tiene que representar para un <i>GameObject</i> cuando aumenta su distancia de la cámara.',
+        'técnica de nivel de detalle (LOD) es una optimización que reduce la cantidad de triángulos que Unity tiene que representar para un GameObject cuando aumenta su distancia de la cámara.',
     },
     {
       termino: '<em>Model</em>',
@@ -219,42 +209,42 @@ export default {
         'archivo que contiene datos 3D, que pueden incluir definiciones de mallas, huesos, animación, materiales y texturas. ',
     },
     {
-      termino: '<em>Package</em>',
+      termino: 'Package',
       significado:
-        'contenedor que almacena varios tipos de características y activos para <i>Unity</i>, incluidas las herramientas y bibliotecas de Editor o Runtime, colecciones de activos y plantillas de proyectos. Los paquetes son unidades independientes que <i>Unity Package Manager</i> puede compartir entre los proyectos de <i>Unity</i>. La mayoría de las veces se denominan paquetes, pero ocasionalmente se denominan paquetes <i>Unity Package Manager</i> (UPM). ',
+        'contenedor que almacena varios tipos de características y activos para Unity, incluidas las herramientas y bibliotecas de Editor o Runtime, colecciones de activos y plantillas de proyectos. Los paquetes son unidades independientes que Unity Package Manager puede compartir entre los proyectos de Unity. La mayoría de las veces se denominan paquetes, pero ocasionalmente se denominan paquetes Unity Package Manager (UPM).',
     },
     {
-      termino: '<em>Prefab</em>',
+      termino: 'Prefab',
       significado:
-        'tipo de activo que le permite almacenar un <i>GameObject</i> completo con componentes y propiedades. La casa prefabricada actúa como una plantilla a partir de la cual puede crear nuevas instancias de objetos en la escena.',
+        'tipo de activo que le permite almacenar un GameObject completo con componentes y propiedades. La casa prefabricada actúa como una plantilla a partir de la cual puede crear nuevas instancias de objetos en la escena.',
     },
     {
-      termino: '<em>Profiler</em>',
+      termino: 'Profiler',
       significado:
         'ventana que ayuda a optimizar el juego. Muestra cuánto tiempo se pasa en las distintas áreas del juego. Por ejemplo, puede informar el porcentaje de tiempo dedicado a renderizar, animar o en la lógica de su juego.',
     },
     {
-      termino: '<em>Project</em>',
+      termino: 'Project',
       significado:
-        'en <i>Unity</i> se usa un proyecto para diseñar y desarrollar un juego. Un proyecto almacena todos los archivos relacionados con un juego, como el activo y los archivos de escena. ',
+        'en Unity se usa un proyecto para diseñar y desarrollar un juego. Un proyecto almacena todos los archivos relacionados con un juego, como el activo y los archivos de escena.',
     },
     {
-      termino: '<em>Project Settings</em>',
+      termino: 'Project Settings',
       significado:
         'amplia colección de configuraciones que le permiten configurar cómo se comportan física, audio, redes, gráficos, entrada y muchas otras áreas de su proyecto. ',
     },
     {
-      termino: '<em>Sprite Atlas</em>',
+      termino: 'Sprite Atlas',
       significado:
         'textura que se compone de varias texturas más pequeñas. También se conoce como atlas de texturas, <i>sprite</i> de imagen, hoja de sprite o textura empaquetada.',
     },
     {
-      termino: '<em>State Machine</em>',
+      termino: 'State Machine',
       significado:
-        'conjunto de estados en un <i>Animator Controller</i> en el que puede estar un personaje o <i>GameObject</i> animado, junto con un conjunto de transiciones entre esos estados y una variable para recordar el estado actual. Los estados disponibles dependerán del tipo de juego, pero los estados típicos incluyen cosas como inactivo, caminar, correr y saltar.',
+        'conjunto de estados en un Animator Controller en el que puede estar un personaje o GameObject animado, junto con un conjunto de transiciones entre esos estados y una variable para recordar el estado actual. Los estados disponibles dependerán del tipo de juego, pero los estados típicos incluyen cosas como inactivo, caminar, correr y saltar.',
     },
     {
-      termino: '<em>State Machine Behaviour</em>',
+      termino: 'State Machine Behaviour',
       significado:
         'secuencia de comandos que se adjunta a un estado dentro de una máquina de estado para controlar lo que sucede cuando la máquina de estado entra, sale o permanece dentro de un estado, como reproducir sonidos cuando se ingresan los estados.',
     },
@@ -273,64 +263,248 @@ export default {
         '<em>Okita, A. (2014). Learning C# Programming with Unity 3D. Taylor & Francis.</em>',
     },
   ],
-  creditos: {
-    liderEquipo: [
-      {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
-      },
-    ],
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable del equipo de diseño instruccional',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Álvaro Cortés Téllez',
-        cargo: 'Experto Temático Videojuegos',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },
-      {
-        nombre: 'Luz Aida Quintero Velásquez',
-        cargo: 'Diseñadora y evaluadora instruccional',
-        centro: 'Centro de Gestión Industrial - Distrito Capital',
-      },
-      {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Regional Distrito Capital- Centro de Metrología y Diseño',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro:
-          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Jorge Enrique Haylock Calderín',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-    ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patrica Aristizabal Gutiérrez',
+          cargo: 'Líder ecosistema de recursos educativos digitales (RED)',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdron',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable del equipo de diseño instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabián Andrés Gómez Pico',
+          cargo: 'Experto temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Johnier Felipe Perafán Ledezma',
+          cargo: 'Experto temático 3D',
+          centro:
+            'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Luz Aida Quintero Velásquez',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gustavo Santis Mancipe',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Oscar Absalón Guevara',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Amparo Lopez Escudero',
+          cargo: 'Diseñador instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Diseñador instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Nelly Parra Guarin',
+          cargo: 'Diseñador instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodólogo para la formación virtual - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andres Felipe Velandia Espitia',
+          cargo: 'Metodólogo para la formación virtual - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Adriana Marcela Suarez Eljure',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Eulises Orduz Amezquita',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jesus Antonio Vecino Valero',
+          cargo: 'Diseñador de contenidos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor multimedia - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animador y productor multimedia - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animador y productor multimedia - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Jorge Enrique Haylock Calderín',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Manuel Felipe Echavarría Orozco',
+          cargo: 'Desarrollador full-stack - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador full-stack - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Luis Jesus Perez Madariaga',
+          cargo: 'Desarrollador full-stack - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Guiza',
+          cargo: 'Desarrollador full-stack junior - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Edinson Castañeda Oviedo',
+          cargo: 'Desarrollador full-stack junior - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Lina Marcela Perez Manchego',
+          cargo: 'Validador de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validador de recursos digitales - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+  ],
+  creditosAdicionales: {
+    imagenes:
+      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
+    creativeCommons:
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }

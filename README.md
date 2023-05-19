@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Documentación de integración de assets**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF5_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/](https://ecored-bogota-dc.github.io/CF5_DESARROLLO_VIDEOJUEGOS_INTERACTIVOS/)
 
 #
 
