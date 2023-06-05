@@ -117,6 +117,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -268,13 +273,13 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patrica Aristizabal Gutiérrez',
+          nombre: 'Claudia Patricía Aristizábal Gutiérrez',
           cargo: 'Líder ecosistema de recursos educativos digitales (RED)',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdron',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
@@ -324,38 +329,14 @@ export default {
             'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
         },
         {
-          nombre: 'Gloria Amparo Lopez Escudero',
-          cargo: 'Diseñador instruccional - 2023',
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuadora instruccional - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Gloria Lida Alzate Suarez',
-          cargo: 'Diseñador instruccional - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Nelly Parra Guarin',
-          cargo: 'Diseñador instruccional - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
+          nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Metodólogo para la formación virtual - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Andres Felipe Velandia Espitia',
-          cargo: 'Metodólogo para la formación virtual - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -371,44 +352,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñador de contenidos digitales - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Adriana Marcela Suarez Eljure',
-          cargo: 'Diseñador de contenidos digitales - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Eulises Orduz Amezquita',
-          cargo: 'Diseñador de contenidos digitales - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
           nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Diseñador de contenidos digitales - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jesus Antonio Vecino Valero',
-          cargo: 'Diseñador de contenidos digitales - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y productor multimedia - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animador y productor multimedia - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -431,32 +376,8 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Manuel Felipe Echavarría Orozco',
-          cargo: 'Desarrollador full-stack - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
           nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador full-stack - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Luis Jesus Perez Madariaga',
-          cargo: 'Desarrollador full-stack - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Diego Fernando Velasco Guiza',
-          cargo: 'Desarrollador full-stack junior - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador full-stack junior - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -466,8 +387,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
           nombre: 'Lina Marcela Perez Manchego',
-          cargo: 'Validador de recursos digitales - 2023',
+          cargo: 'Validadora de recursos digitales - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
