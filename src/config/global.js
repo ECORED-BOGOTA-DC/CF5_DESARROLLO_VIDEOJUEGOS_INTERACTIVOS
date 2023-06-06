@@ -274,9 +274,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricía Aristizábal Gutiérrez',
-          cargo: 'Líder ecosistema de recursos educativos digitales (RED)',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+          cargo: 'Responsable del equipo',
+          centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
