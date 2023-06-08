@@ -40,7 +40,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 7]]
+          p.mb-0 #[b Figura 7]
           p.mb-0 Ventana del asistente de creación de proyecto
         img.mb-4(src='@/assets/curso/tema2/img4.png')
     //-titulo
@@ -61,14 +61,14 @@
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 8]]
+          p.mb-0 #[b Figura 8]
           p.mb-0 Ventana de diálogo para la configuración del modo de plantilla
         img.mb-4(src='@/assets/curso/tema2/img5.png')
     p.mb-4(data-aos="fade-down-right") En el Inspector, aparecerá la opción Default Behavior Mode y podrá elegir el modo específico de comportamiento.
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 9]]
+          p.mb-0 #[b Figura 9]
           p.mb-0 Detalle de la ventana de diálogo para la configuración del modo de plantilla
         img.mb-4(src='@/assets/curso/tema2/img6.png')
     .row.align-items-center(data-aos="fade-down-right")
@@ -162,7 +162,7 @@
     .row.justify-content-center
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b #[i Figura 10]]
+          p.mb-0 #[b Figura 10]
           p.mb-0 Paneles de configuración de atributos, integración de componentes y organización de <i>assets</i>
         img(src='@/assets/curso/tema2/img7.png')
     Separador
@@ -178,7 +178,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/wtm8IRq8E6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-4(data-aos="fade-down-right") Una vez se determina la plataforma definitiva e incluso las posibilidades de conversión, se hace necesario documentar los detalles de configuración, asegurándose de concluir cada aspecto inherente a la compilación y plataforma de publicación.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
-      p.mb-0 #[b #[i Tabla 3]]
+      p.mb-0 #[b Tabla 3]
       p.mb-0 Configuraciones para compilación
     .tabla-c(data-aos="fade-down-right")
       table
@@ -194,10 +194,10 @@
           td.text-center Windows
           td Compilación para Windows
         tr
-          td.text-center macOS X (#[i Not available on] Linux)
+          td.text-center macOS X (#[i not available on] Linux)
           td Compilación para macOS.
         tr
-          td.text-center Linux (#[i not available] on Mac)
+          td.text-center Linux (#[i not available on] Mac)
           td Compilación para Linux.
         tr
           td.text-center Arquitectura
@@ -259,7 +259,7 @@
     .row.justify-content-center
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
-          p.mb-0 #[b #[i Tabla 4]]
+          p.mb-0 #[b Tabla 4]
           p.mb-0 Ejemplo lista de chequeo de integración y configuración de <i>assets</i>
         .tabla-c(data-aos="fade-down-right")
           table.bordes
@@ -346,7 +346,6 @@
     .cajon.color-primario.fondo-cajon.p-4.mb-4(data-aos="fade-down-right")
       p En macOS, se puede acceder a los registros del reproductor, el administrador de paquetes y el Editor a través de la utilidad Console.app.
       p.mb-0 En Windows, los registros del Administrador de paquetes y del Editor se ponen en carpetas que no se muestran en el Explorador de Windows de forma predeterminada.
-    //-titulo 2
     .row.align-items-center(data-aos="fade-down-right")
       .col-sm-1.col-2.p-0.p-lg-3.p-xl-4.pad1
         img.p-2(src='@/assets/curso/tema1/fig21.svg')

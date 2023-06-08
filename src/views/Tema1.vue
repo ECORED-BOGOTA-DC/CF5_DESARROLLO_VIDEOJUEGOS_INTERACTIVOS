@@ -45,7 +45,7 @@
     p(data-aos="fade-down-right") Para acceder a la ventana Unity Profiler vaya al menú: 
     p.mb-4(data-aos="fade-down-right") <em>Window > Analysis > Profiler</em>
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down-right")
-      p.mb-0 #[b #[i Figura 1]]
+      p.mb-0 #[b Figura 1]
       p.mb-0 Ventana Profiler
     img(data-aos="fade-down-right").mb-5(src='@/assets/curso/tema1/img3.jpg')
     .tarjeta--container.row.mb-5
@@ -99,9 +99,9 @@
         .lista-ol--cuadro__vineta
           span b
         | #[b Preferencias del generador de perfiles]
-    p.mb-4(data-aos="fade-down-right") La ventana Preferencias contiene configuraciones adicionales de la ventana <i>Unity Profiler</i> de la siguiente manera:
+    p.mb-4(data-aos="fade-down-right") La ventana Preferencias contiene configuraciones adicionales de la ventana Unity Profiler de la siguiente manera:
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
-      p.mb-0 #[b #[i Tabla 1]]
+      p.mb-0 #[b Tabla 1]
       p.mb-0 Ventana de preferencias
     .tabla-c.mb-5(data-aos="fade-down-right")
       table
@@ -131,7 +131,7 @@
     p(data-aos="fade-down-right") El módulo de uso de CPU proporciona la mejor descripción general de cuánto tiempo pasa la aplicación en cada marco. Los otros módulos recopilan datos más específicos y pueden ayudar a inspeccionar áreas más específicas o monitorear los aspectos vitales de la aplicación, como el consumo de memoria, la representación o las estadísticas de audio.
     p.mb-4(data-aos="fade-down-left") A continuación, se presentan estos módulos en la siguiente tabla.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
-      p.mb-0 #[b #[i Tabla 2]]
+      p.mb-0 #[b Tabla 2]
       p.mb-0 Módulos
     .tabla-c.mb-5(data-aos="fade-down-right")
       table
@@ -218,7 +218,7 @@
             .row.justify-content-center
               .col-auto.fondo-7.px-4.py-2
                 .titulo-sexto.color-acento-contenido.mb-0
-                  p.mb-0 #[b #[i Figura 2]]
+                  p.mb-0 #[b Figura 2]
                   p.mb-0 Ventana de dialogo Build Settings
             figure.mb-4
               img(src='@/assets/curso/tema1/img4.png')
@@ -234,8 +234,8 @@
             .row.justify-content-center
               .col-auto.fondo-7.px-4.py-2
                 .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-down-right")
-                  p.mb-0 #[b #[i Figura 3]]
-                  p.mb-0 Ventana Editor <i>Features</i>
+                  p.mb-0 #[b Figura 3]
+                  p.mb-0 Ventana Editor Features
             figure.mb-4
               img(src='@/assets/curso/tema1/img5.png')
       ModalA(:abrir-modal.sync="modal1")
@@ -354,7 +354,7 @@
     AcordionA(data-aos="fade-down-right").mb-5(tipo="a" clase-tarjeta="tarjeta fondo-8 otrofondo")
       .row.justify-content-around(titulo="Rendimiento de iluminación estática")
         .col-lg-5.mb-4.mb-md-0
-          p De una forma similar con la técnica de quemado de texturas, puede optimizarse desde el editor de <i>Unity 3D</i> los efectos de iluminación. En este proceso se busca generar iluminación sin la necesidad de cálculos matemáticos, a partir del uso de la herramienta de <i>lightmapping</i> que permite hacer el quemado de texturas, al interior del motor, calculando sus propiedades una sola vez en elementos estáticos, haciendo más rápido el procesamiento general y alivianando la cantidad de información en el procesador y memoria.
+          p De una forma similar con la técnica de quemado de texturas, puede optimizarse desde el editor de Unity 3D los efectos de iluminación. En este proceso se busca generar iluminación sin la necesidad de cálculos matemáticos, a partir del uso de la herramienta de <i>lightmapping</i> que permite hacer el quemado de texturas, al interior del motor, calculando sus propiedades una sola vez en elementos estáticos, haciendo más rápido el procesamiento general y alivianando la cantidad de información en el procesador y memoria.
           a.boton.color-acento-botones.indicador__container.mb-4(@click="modal3 = true")
             span Ampliar imagen
             i.fas.fa-magnifying-glass
@@ -363,7 +363,7 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b #[i Figura 4]]
+                p.mb-0 #[b Figura 4]
                 p.mb-0 Rendimiento de iluminación estática
           figure
             img(src='@/assets/curso/tema1/img12.png')
@@ -378,7 +378,7 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b #[i Figura 5]]
+                p.mb-0 #[b Figura 5]
                 p.mb-0 Proceso de optimización de texturas en el panel Inspector
           figure
             img(src='@/assets/curso/tema1/img13.png')
@@ -393,7 +393,7 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b #[i Figura 6]]
+                p.mb-0 #[b Figura 6]
                 p.mb-0 Proceso optimización densidad de malla poligonal
           figure
             img(src='@/assets/curso/tema1/img14.png')
@@ -556,7 +556,7 @@
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-8.col-sm-10.col-12(data-aos="fade-down-left") 
         img(src='@/assets/curso/tema1/fig12.svg')
-    p.mb-4(data-aos="fade-down-right")  Con un simple cambio, ahora se asegura que <i>DisplayScore</i> () se llame solo cuando el valor de la puntuación haya cambiado.
+    p.mb-4(data-aos="fade-down-right")  Con un simple cambio, ahora se asegura que DisplayScore() se llame solo cuando el valor de la puntuación haya cambiado.
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-8.col-sm-10.col-12(data-aos="fade-down-left") 
         img(src='@/assets/curso/tema1/fig13.svg')
@@ -626,7 +626,7 @@
             img.p-2(src='@/assets/curso/tema1/fig21.svg')
           .col-auto.col-10.ps-0
             p.mb-0.correr-izq Eliminación (<i>Culling</i>)
-        p.mb-4(data-aos="fade-down-right") Unity contiene un código que comprueba si los objetos están dentro del cono de vista de una cámara. Si no están dentro del cono de vista de una cámara, el código relacionado con la representación de estos objetos no se ejecuta; el término para esto es sacrificio "frustum".
+        p.mb-4(data-aos="fade-down-right") Unity contiene un código que comprueba si los objetos están dentro del cono de vista de una cámara. Si no están dentro del cono de vista de una cámara, el código relacionado con la representación de estos objetos no se ejecuta; el término para esto es sacrificio (#[i frustum]).
         .cajon.color-primario.fondo-cajon.p-4.mb-4(data-aos="fade-down-right")
           p Se puede adoptar un enfoque similar al código en los <i>scripts</i>. Si se tiene un código que se relaciona con el estado visual de un objeto, es posible que no se necesite ejecutar este código cuando el jugador no pueda ver el objeto. En una escena compleja con muchos objetos, esto puede resultar en ahorros de rendimiento considerables.
         p.mb-4(data-aos="fade-down-right") En el siguiente código de ejemplo simplificado, se tiene un ejemplo de un enemigo patrullando. Cada vez que se llama a Update(), el script que controla a este enemigo llama a dos funciones de ejemplo: una relacionada con el movimiento del enemigo y otra relacionada con su estado visual.
