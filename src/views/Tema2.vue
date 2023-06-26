@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.jpg')})`}"
           )
           .bloque-texto-g__texto.cambiotexto.px-4.py-5
-            p.mb-0 Es importante que en esta fase de desarrollo, se tengan detalles de los requerimientos del proyecto, es decir, una base documental que, en esencia, es el documento de diseño del videojuego o Game Design Document.
+            p.mb-0 Es importante que, en esta fase de desarrollo, se tengan detalles de los requerimientos del proyecto, es decir, una base documental que, en esencia, es el documento de diseño del videojuego o Game Design Document.
     .row.align-items-center
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-down-right")
         p Los detalles de requerimientos podrán ofrecer una orientación sobre las características esenciales que deberá tener la #[b carpeta de proyecto de Unity 3D] y, por consiguiente, de la manera como se deberá configurar y optimizar cada asset a integrar o integrado en la plataforma.
@@ -36,11 +36,11 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/CkhdcXwg4dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     h3.mb-4(data-aos="fade-down-right") Configuración predeterminada/personalizada de un proyecto en Unity
-    p.mb-4(data-aos="fade-down-right") Configuración predeterminada/personalizada de un proyecto en Unity: cuando se crea un proyecto nuevo en Unity, se abre una ventana que funciona como asistente de creación de proyecto, solicitando una primera información de base, como el nombre del proyecto, su ubicación en el sistema de carpetas y su plantilla de base, que define si será 2D o 3D. 
+    p.mb-4(data-aos="fade-down-right") Cuando se crea un proyecto nuevo en Unity, se abre una ventana que funciona como asistente de creación de proyecto, solicitando una primera información de base, como el nombre del proyecto, su ubicación en el sistema de carpetas y su plantilla de base, que define si será 2D o 3D. 
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 7]
+          p.mb-0 #[b Figura 8]
           p.mb-0 Ventana del asistente de creación de proyecto
         img.mb-4(src='@/assets/curso/tema2/img4.png')
     //-titulo
@@ -61,14 +61,14 @@
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 8]
+          p.mb-0 #[b Figura 9]
           p.mb-0 Ventana de diálogo para la configuración del modo de plantilla
         img.mb-4(src='@/assets/curso/tema2/img5.png')
     p.mb-4(data-aos="fade-down-right") En el Inspector, aparecerá la opción Default Behavior Mode y podrá elegir el modo específico de comportamiento.
     .row.justify-content-center.mb-4
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 9]
+          p.mb-0 #[b Figura 10]
           p.mb-0 Detalle de la ventana de diálogo para la configuración del modo de plantilla
         img.mb-4(src='@/assets/curso/tema2/img6.png')
     .row.align-items-center(data-aos="fade-down-right")
@@ -162,12 +162,13 @@
     .row.justify-content-center
       .col-lg-10.col-md-12(data-aos="fade-down-right")
         .titulo-sexto.color-acento-contenido.mb-3
-          p.mb-0 #[b Figura 10]
+          p.mb-0 #[b Figura 11]
           p.mb-0 Paneles de configuración de atributos, integración de componentes y organización de <i>assets</i>
         img(src='@/assets/curso/tema2/img7.png')
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 2.2 Detalles de configuración de la plataforma de publicación y compilación
+    p Cuando se configura el proyecto en sus detalles iniciales, los primeros aspectos a resolver son la plataforma de compilación y publicación. Sin embargo, Unity permite cambiar la plataforma definida, haciéndolo a través de la opción Switch Platform.
     p.mb-4(data-aos="fade-down-right") A continuación, se verá cómo se puede hacer el 
       span.gtext-bold cambio de plataforma 
       span a través del siguiente video.
@@ -176,7 +177,8 @@
         figure(data-aos="fade-down")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/wtm8IRq8E6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-4(data-aos="fade-down-right") Una vez se determina la plataforma definitiva e incluso las posibilidades de conversión, se hace necesario documentar los detalles de configuración, asegurándose de concluir cada aspecto inherente a la compilación y plataforma de publicación.
+    p(data-aos="fade-down-right") Una vez se determina la plataforma definitiva e incluso las posibilidades de conversión, se hace necesario documentar los detalles de configuración, asegurándose de concluir cada aspecto inherente a la compilación y plataforma de publicación.
+    p.mb-4(data-aos="fade-down-left") #[b Detalles de compilación Standalone]: la configuración de compilación independiente para PC, Mac y Linux contiene opciones que se pueden utilizar para configurar y comenzar el proceso de compilación de la aplicación en estas plataformas. Esta contiene configuraciones para crear compilaciones de desarrollo, así como publicar su compilación final. Para acceder a la ventana Configuración de compilación, se debe ir a File > Build Settings. Una vez que se especifique la configuración de compilación, se selecciona Build para crear la compilación, o seleccionar Build and Run para crear y ejecutar la compilación en la plataforma que especifique.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
       p.mb-0 #[b Tabla 3]
       p.mb-0 Configuraciones para compilación
@@ -254,7 +256,7 @@
         img(src='@/assets/curso/tema2/fig1.svg')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p Básicamente se trata de enumerar en primer lugar los ítems, determinar si se encuentran presentes o no en la carpeta de proyecto y verificar si su integración se logró con éxito en un primer intento, y de no ser así, describir en los detalles el proceso que se llevó a cabo para su optimización o correcta integración. Como componente de bitácora, la lista tendrá, además, la ruta de acceso al recurso, y de ser posible, capturas de los paneles de Inspector y Jerarquía para visualizar gráficamente los detalles de su configuración o integración de componentes de juego como archivos de código o efectos.
-        p Por otro lado, se listan las características de compilación, mostrando incluso de forma gráfica mediante captura, que en efecto se realizó la configuración de acuerdo con los requerimientos, ayudando a mismo tiempo al equipo de trabajo, a entender la ruta de acceso e interacción con las herramientas de compilación (Build Settings).
+        p Por otro lado, se listan las características de compilación, mostrando incluso de forma gráfica mediante captura, que en efecto se realizó la configuración de acuerdo con los requerimientos, ayudando al mismo tiempo al equipo de trabajo, a entender la ruta de acceso e interacción con las herramientas de compilación (Build Settings).
     p.mb-4(data-aos="fade-down-right") A continuación, se presenta un ejemplo de lista de chequeo de integración y configuración de <i>assets</i>, donde puede observarse el orden de caracterización del ítem, de lo general (categoría) a lo particular (criterio/atributo). Y en un espacio de la lista, lo correspondiente al listado de errores y ajustes, de ser necesario.
     .row.justify-content-center
       .col-lg-10.col-md-12
@@ -352,6 +354,9 @@
       .col-auto.col-10.ps-0
         p.mb-0.correr-izq Administrador de empaquetación
     p.mb-4(data-aos="fade-down-right") para ver el registro de Package Manager, se debe navegar hasta la carpeta de registro de Unity:
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
+      p.mb-0 #[b Tabla 5]
+      p.mb-0 Registro de Package Manager
     .tabla-c.mb-5(data-aos="fade-down-right")
       table
         tr.fondo-5.text-white.text-center
@@ -378,6 +383,9 @@
       .col-auto.col-10.ps-0
         p.mb-0.correr-izq Editor
     p.mb-4(data-aos="fade-down-right") Para ver el registro del editor, se debe abrir una ventana de la consola (menu: <i>Window > General > Console</i>) y seleccionar Abrir registro del editor en el menú de la ventana de la consola. También se puede navegar a la siguiente carpeta:
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
+      p.mb-0 #[b Tabla 6]
+      p.mb-0 Registro del editor
     .tabla-c.mb-5(data-aos="fade-down-right")
       table
         tr.fondo-5.text-white.text-center
@@ -401,6 +409,9 @@
       .col-auto.col-10.ps-0
         p.mb-0.correr-izq Jugador
     p.mb-4(data-aos="fade-down-right") Para ver el registro del jugador, se debe abrir una ventana de la consola (menú: <i>Window > General > Console</i>) y seleccionar Abrir registro del jugador en el menú de la ventana de la consola. También se puede navegar a la siguiente carpeta:
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
+      p.mb-0 #[b Tabla 7]
+      p.mb-0 Registro del jugador
     .tabla-c(data-aos="fade-down-right")
       table
         tr.fondo-5.text-white.text-center

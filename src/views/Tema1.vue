@@ -13,7 +13,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.jpg')})`}"
           )
           .bloque-texto-g__texto.cambiotexto.px-4.py-5
-            p.mb-0 Las partes gráficas de un videojuego  pueden tener injerencia en dos sistemas del cómputo: el GPU o el CPU; y  la primera regla de optimización es en encontrar dónde está el problema de rendimiento para determinar las estrategias que se utilizarán en la optimización de todos los recursos del videojuego.
+            p.mb-0 Las partes gráficas de un videojuego  pueden tener injerencia en dos sistemas del cómputo: el GPU o el CPU; y  la primera regla de optimización es encontrar dónde está el problema de rendimiento para determinar las estrategias que se utilizarán en la optimización de todos los recursos del videojuego.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-right")
       h2 1.1 Métricas de rendimiento
@@ -78,6 +78,9 @@
         .lista-ol--cuadro__vineta
           span a
         | #[b Diseño de la ventana del generador de perfiles]
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down-right")
+      p.mb-0 #[b Figura 2]
+      p.mb-0 Ventana del generador de perfiles
     ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-down-right")
       template(v-slot:imagen)
         figure
@@ -132,7 +135,7 @@
     p.mb-4(data-aos="fade-down-left") A continuación, se presentan estos módulos en la siguiente tabla.
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down-right")
       p.mb-0 #[b Tabla 2]
-      p.mb-0 Módulos
+      p.mb-0 Módulos de perfilador
     .tabla-c.mb-5(data-aos="fade-down-right")
       table
         tr.fondo-5.text-white.text-center
@@ -218,8 +221,8 @@
             .row.justify-content-center
               .col-auto.fondo-7.px-4.py-2
                 .titulo-sexto.color-acento-contenido.mb-0
-                  p.mb-0 #[b Figura 2]
-                  p.mb-0 Ventana de dialogo Build Settings
+                  p.mb-0 #[b Figura 3]
+                  p.mb-0 Ventana de diálogo Build Settings
             figure.mb-4
               img(src='@/assets/curso/tema1/img4.png')
         .row.justify-content-center
@@ -234,7 +237,7 @@
             .row.justify-content-center
               .col-auto.fondo-7.px-4.py-2
                 .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-down-right")
-                  p.mb-0 #[b Figura 3]
+                  p.mb-0 #[b Figura 4]
                   p.mb-0 Ventana Editor Features
             figure.mb-4
               img(src='@/assets/curso/tema1/img5.png')
@@ -267,9 +270,9 @@
           p Agregue los módulos de Unity Profiler relacionados con el área que desea investigar a la ventana de la herramienta. Para agregar y quitar módulos al generador de perfiles, seleccione el menú desplegable en la parte superior izquierda de la ventana del generador de perfiles Profiler Modules. Se desplegará un cuadro de opciones donde podrá habilitar o deshabilitar los módulos que se deseen.
 
       .row.justify-content-around(titulo="Habilitación de la configuración de pilas de llamadas")
-        .col-lg-5.mb-4.mb-md-0
+        .col-12.mb-4
           p Evite el uso de perfiles profundos, ya que crea una gran sobrecarga cuando lo usa. Si desea ver más detalles sobre muestras con marcadores como GC.Alloc o JobFence.Complete, navegue hasta la barra de herramientas de la ventana Profiler y habilite la configuración de Pilas de llamadas. Esto proporciona la pila de llamadas completa de la muestra que le brinda la información que necesita sin incurrir en la sobrecarga de la creación de perfiles profundos.
-        .col-lg-6
+        .col-12
           figure
             img(src='@/assets/curso/tema1/img7.png')
       .row.justify-content-around(titulo="Habilitar o deshabilitar Profiler")
@@ -334,15 +337,15 @@
           figure
             img(src='@/assets/curso/tema1/img9.png')
       .row.justify-content-around(titulo="Dibujo de materiales y texturas")
-        .col-lg-5.mb-4.mb-md-0
+        .col-12.mb-4
           p Es importante reducir el número de materiales, en objetos o elementos similares en apariencia, tratando de generar atlas de imágenes de textura que puedan ser utilizados en un mismo material por diferentes objetos.
-        .col-lg-6
+        .col-12
           figure
             img(src='@/assets/curso/tema1/img10.png')
       .row.justify-content-around(titulo="Efectos de sombreado, reflexión y luces")
-        .col-lg-5.mb-4.mb-md-0
+        .col-12.mb-4
           p El cálculo de sombras, luces y efectos de reflexión, supone el cálculo matemático de cada uno de estos, en tiempo real, cada vez por segundo. En este tipo de optimización se utiliza el quemado de texturas (<i>baking texture</i>), que permite generar imágenes con el dibujado de píxeles de sombras, luces, y reflexiones en la imagen de textura, evitando el cálculo en tiempo real de estos efectos.
-        .col-lg-6
+        .col-12
           figure
             img(src='@/assets/curso/tema1/img11.png')
     .row.align-items-center(data-aos="fade-down-right")
@@ -363,7 +366,7 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b Figura 4]
+                p.mb-0 #[b Figura 5]
                 p.mb-0 Rendimiento de iluminación estática
           figure
             img(src='@/assets/curso/tema1/img12.png')
@@ -378,7 +381,7 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b Figura 5]
+                p.mb-0 #[b Figura 6]
                 p.mb-0 Proceso de optimización de texturas en el panel Inspector
           figure
             img(src='@/assets/curso/tema1/img13.png')
@@ -393,28 +396,28 @@
           .row.justify-content-center
             .col-auto.fondo-7.px-4.py-2
               .titulo-sexto.color-acento-contenido.mb-0
-                p.mb-0 #[b Figura 6]
+                p.mb-0 #[b Figura 7]
                 p.mb-0 Proceso optimización densidad de malla poligonal
           figure
             img(src='@/assets/curso/tema1/img14.png')
     ModalA(:abrir-modal.sync="modal3")
-      .row.align-items-center
-        .col-md-10.col-12.mb-4.mb-md-0
+      .row.justify-content-center
+        .col-lg-10
           figure
             img(src='@/assets/curso/tema1/img12.png')
     ModalA(:abrir-modal.sync="modal4")
-      .row.align-items-center
-        .col-md-10.col-12.mb-4.mb-md-0
+      .row.justify-content-center
+        .col-lg-10
           figure
             img(src='@/assets/curso/tema1/img13.png')
     ModalA(:abrir-modal.sync="modal5")
-      .row.align-items-center
-        .col-md-10.col-12.mb-4.mb-md-0
+      .row.justify-content-center
+        .col-lg-10
           figure
             img(src='@/assets/curso/tema1/img14.png')
     p.mb-4 Mediante el siguiente video, se verán algunos elementos clave para el proceso de optimización de assets.
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10
         figure(data-aos="fade-down")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/zU6UrJpGn1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
